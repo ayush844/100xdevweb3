@@ -43,3 +43,30 @@ function hexToArray(hexString) {
 const hex = "48656c6c6f";
 const byteArrayFromHex = hexToArray(hex);
 console.log(byteArrayFromHex); // Output: Uint8Array(5) [72, 101, 108, 108, 111]
+
+
+//---------------------------------------------------------------------------------
+
+// string to binary (str -> bytes -> binary)
+
+const str = "Hi";
+
+// Step 1: Convert string to bytes (UTF-8 / ASCII)
+const bytes = new TextEncoder().encode(str);
+
+console.log("here bytes are: ", bytes);
+
+// Step 2: Convert each byte to binary
+const binary = Array.from(bytes)
+  .map(byte => byte.toString(2).padStart(8, '0'))
+  .join(' ');
+
+console.log("here binary is: ",binary);
+
+
+//output
+
+// here bytes are:  Uint8Array(2) [ 72, 105 ]
+// here binary is:  01001000 01101001
+
+//---------------------------------------------------------------------------------

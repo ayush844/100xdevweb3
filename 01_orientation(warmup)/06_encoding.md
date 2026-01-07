@@ -278,10 +278,15 @@ Base64 ensures:
 | Use case           | Binary → text       |
 | Human readable     | Partially           |
 
+> it tries to return result with multiple of 4 character, if it is less then that then it adds '=' at end
+
+![alt text](image.png)
+
+now take 6 character from each, at end pad with 0s if 6 charcters are not completed
+
 ![alt text](image-1.png)
 
 
-![alt text](image.png)
 
 ---
 
