@@ -7,12 +7,6 @@
 
 ## 🧱 What Is a Bitcoin Block Made Of?
 
-![Image](https://personal.ntu.edu.sg/ehchua/programming/blockchain/images/Bitcoin_BlockStructure.png)
-
-![Image](https://www.0xkishan.com/blogs/bitcoin/blocks-chained.png)
-
-![Image](https://i.sstatic.net/HUZQ2.jpg)
-
 Every Bitcoin block contains **two main parts**:
 
 ---
@@ -45,9 +39,6 @@ The block header contains:
 
 ## 🔗 Why “Previous Hash” Is So Important
 
-![Image](https://vitalflux.com/wp-content/uploads/2018/06/Blockchain-represented-as-Linked-List-Data-Structure-1280x720.png)
-
-![Image](https://www.0xkishan.com/blogs/bitcoin/blocks-chained.png)
 
 * Each block stores the **hash of the previous block**
 * This creates a **chain of blocks**
@@ -74,9 +65,6 @@ Miners compete to:
 
 ## 🧮 The Mining Puzzle (Simple Version)
 
-![Image](https://i.sstatic.net/VsFi8.png)
-
-![Image](https://www.ledger.com/wp-content/uploads/2019/10/What-is-proof-of-work-1.jpg)
 
 1️⃣ Take block header data
 2️⃣ Add a nonce
@@ -120,10 +108,6 @@ Difficulty adjustment happens:
 ---
 
 ## 🏆 What Happens After a Miner Wins?
-
-![Image](https://hashrateindex.com/blog/content/images/2022/03/Frame-481940--1-.png)
-
-![Image](https://ars.els-cdn.com/content/image/1-s2.0-S1389128622000238-gr1.jpg)
 
 1️⃣ Miner broadcasts the block to the network
 2️⃣ Other nodes verify:

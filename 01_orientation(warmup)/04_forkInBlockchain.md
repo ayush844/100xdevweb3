@@ -1,7 +1,6 @@
 
 # 🌿 What Is a Fork in a Blockchain?
 
-![Image](https://shardeum.nyc3.cdn.digitaloceanspaces.com/shardeum/2022/09/What-are-the-two-types-of-forks-in-blockchain.jpg)
 
 ![Image](https://i0.wp.com/www.mangoresearch.co/wp-content/uploads/2018/06/Block2-LongestChain.png?resize=988%2C526)
 
@@ -57,9 +56,6 @@ They happen because of **simultaneous block discovery**.
 
 ## ⛏️ What Do Miners Do During a Fork?
 
-![Image](https://runonflux.com/wp-content/uploads/2025/10/Screenshot_14-10-2025_141342_chatgpt.com_.jpeg)
-
-![Image](https://static.learnmeabitcoin.com/diagrams/png/blockchain-longest-chain-protection.png)
 
 * Some miners receive **Block 100A first**
 * Others receive **Block 100B first**
@@ -110,9 +106,6 @@ Now:
 
 ## 🗑️ What Happens to the Losing Block?
 
-![Image](https://static.nicehash.com/marketing%2FChain_orphan_blocks.png)
-
-![Image](https://hashrateindex.com/blog/content/images/2022/02/Bitcoin-Stale-Block-Graphic.png)
 
 * Losing block becomes an **orphan block** (also called **stale block**)
 * Transactions inside it:
